@@ -13,6 +13,6 @@ Each folder has its own README, the notebook, and the dataset (where one is used
 ## Run
 
 ```bash
-pip install numpy pandas matplotlib jupyter
+pip install -r requirements.txt
 jupyter notebook
 ```
