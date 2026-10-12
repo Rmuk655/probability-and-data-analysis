@@ -1,55 +1,18 @@
 # Probability and Data Analysis
 
-A collection of probability simulations, statistical experiments, and exploratory data analysis projects implemented using Python.
+Three small, self-contained notebooks on probability simulation and exploratory data analysis with Python.
 
-## Topics Covered
+| Notebook | Question | Tools |
+|---|---|---|
+| [`Fair Coin Simulation/`](Fair%20Coin%20Simulation) | How can fair outcomes be generated from a biased coin? Simulated tosses and PMF visualization | NumPy, Matplotlib |
+| [`BMI Risk Analysis/`](BMI%20Risk%20Analysis) | Conditional probabilities over BMI categories, e.g. P(index > 3 given male and height > 160 cm), computed from height/weight data | pandas |
+| [`Titanic Survival Analysis/`](Titanic%20Survival%20Analysis) | Conditional probabilities on the Titanic dataset, e.g. P(age > 30 given dead and male) | pandas |
 
-- Biased coin simulations
-- Fair sampling methods
-- Probability mass functions (PMFs)
-- Exploratory data analysis
-- Conditional probability
-- Statistical visualization
+Each folder has its own README, the notebook, and the dataset (where one is used).
 
-## Tools Used
+## Run
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-
----
-
-## Projects
-
-### Fair Coin Simulation
-
-Simulation of fair decision-making using a biased coin through rejection sampling techniques.
-
-Concepts:
-- probability
-- random processes
-- Monte Carlo simulation
-- PMF visualization
-
----
-
-### Titanic Survival Analysis
-
-Exploratory probability analysis on the Titanic dataset.
-
-Concepts:
-- conditional probability
-- data filtering
-- statistical reasoning
-
----
-
-### BMI Risk Analysis
-
-Probability analysis on height-weight datasets and BMI categories.
-
-Concepts:
-- probability distributions
-- conditional statistics
-- data analysis
+```bash
+pip install numpy pandas matplotlib jupyter
+jupyter notebook
+```
